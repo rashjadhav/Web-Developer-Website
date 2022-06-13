@@ -1,0 +1,207 @@
+body {
+
+  background-color: #e0ebe8;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+a:hover {
+  background-color: yellow;
+}
+
+#navbar {
+  background-color: rgb(14, 156, 114);
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+}
+
+#alldivs {
+  background-color: #e0ebe8;
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+}
+
+#navbarpic {
+  position: relative;  
+  border-radius: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+}
+
+
+ul {
+  list-style-type: none;
+  display: inline;
+  overflow: hidden;
+  float: right;
+  text-align: center;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  float: right;
+  display: inline;
+  color: #111;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0 8px;
+}
+#image1{
+  position: relative;
+  float: right;
+
+}
+#image2{
+  position: relative;
+  float: left;
+ 
+}
+
+.second {
+  text-align: center;
+  color: rgb(14, 156, 114);
+  font-family: 'Roboto', sans-serif;
+  display: block;
+
+}
+
+.third {
+
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+
+}
+
+#thirdpara {
+  line-height: 2em;
+  text-align: left;
+  overflow: hidden;
+  max-width: 30%;
+}
+
+#thirdimage {
+
+  position: relative;
+  float: left;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 30px 0 300px;
+  padding: 0;
+}
+
+#thirdheading {
+  padding: 0 14em;
+  color: rgb(14, 156, 114);
+  /* text-align: center; */
+
+}
+
+#secondpara {
+  line-height: 2em;
+  text-align: left;
+  overflow: hidden;
+  max-width: 30%;
+  margin: 0 0 0 350px;
+
+}
+
+#secondimage {
+
+  position: relative;
+  float: right;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 350px 0 30px;
+  padding: 0;
+}
+
+#secondheading {
+  padding: 0 10em;
+  text-align: center;
+  color: rgb(14, 156, 114);
+}
+
+#lastpara {
+  line-height: 2em;
+  text-align: left;
+  overflow: hidden;
+  max-width: 40%;
+  margin: 0 400px 0 400px;
+
+}
+#Firstpara{
+  line-height: 2em;
+  text-align: left;
+  overflow: hidden;
+  max-width: 80%;
+  margin: 0 400px 0 400px;
+  padding: 0;
+}
+#firstimage {
+
+  position: relative;
+  float: center;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 350px 0 580px;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  color: rgb(14, 156, 114);
+}
+h2{
+  text-align: center;
+  color: rgb(14, 156, 114);
+  align-items: center;
+  margin: 30px  200px 0 200px;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+}
+
+hr{
+  border: dotted;
+  width: 5%;
+  float: center;
+  border-top: 2px ;
+  margin: 50px auto  50px auto;
+}
+
+button{
+  background-color: rgb(14, 156, 114);
+  border-radius: 10px;
+  width: 10%;
+  height: 40px;
+  float: center;
+  text-align: center;
+  margin: 50px 20px  20px  600px;
+}
+#bottombar{
+  background-color: rgb(14, 156, 114);
+  display: flex;
+  
+}
+.bottom{
+  display: inline;
+  text-align: center;
+  margin: 10px 10px  10px  450px;
+  margin-right: 50px;  
+  align-items: center;
+}
+
+.bottombar{
+  float: center;
+  display: inline;
+  text-align: right;
+  text-decoration: none; 
+  align-items: center;
+  
+}
+ 
