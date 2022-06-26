@@ -1,4 +1,4 @@
-body {
+/* body {
 
   background-color: #e0ebe8;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -62,9 +62,9 @@ li a {
   position: relative;
   float: left;
  
-}
+} */
 
-.second {
+/* .second {
   text-align: center;
   color: rgb(14, 156, 114);
   font-family: 'Roboto', sans-serif;
@@ -100,7 +100,7 @@ li a {
 #thirdheading {
   padding: 0 14em;
   color: rgb(14, 156, 114);
-  /* text-align: center; */
+  
 
 }
 
@@ -162,11 +162,12 @@ h2{
   text-align: center;
   color: rgb(14, 156, 114);
   align-items: center;
+  
   margin: 30px  200px 0 200px;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
-}
+} */
 
-hr{
+/* hr{
   border: dotted;
   width: 5%;
   float: center;
@@ -204,4 +205,44 @@ button{
   align-items: center;
   
 }
- 
+  */
+
+
+.navbar {
+  background-color: rgb(14, 156, 114);
+  color: white;
+}
+
+.whole {
+  background-color: #e0ebe8;
+  text-align: center;
+}
+
+.horicontal {
+  border: dotted;
+  width: 5%;
+  float: center;
+  border-top: 2px;
+  margin: 50px auto 50px auto;
+  color: black;
+
+}
+
+.allheadings {
+  color: rgb(14, 156, 114);
+}
+.last{
+  background-color:rgb(14, 156, 114) ;
+  padding: 3% ;
+  text-align: center;
+}
+a:hover {
+  background-color: yellow;
+}
+.ancher{
+  color: white;
+  padding: 3% 3%;
+}
+.bigmountain{
+  width: 100%;
+}

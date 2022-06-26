@@ -8,70 +8,165 @@
     <title>Developer Website</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="icon" href="kid-croped.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="navbar">
-        <ul>
-            <li><a href="https://www.google.com/search?q=news+about+web+developer&rlz=1C1RXQR_enIN1008IN1008&oq=news+about+web+developer&aqs=chrome..69i57j0i22i30j0i390l3j69i60l3.15885j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-        <img id=navbarpic src="kid-croped.png" alt="Girl in a jacket" width="100" height="100">
-        
+    <div>
+        <nav class="navbar  navbar-expand-lg ">
+            <div class="container-fluid bgcolor">
+                <a class="navbar-brand" href="#"><img id=navbarpic src="kid-croped.png" alt="Girl in a jacket"
+                        width="100" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                    <ul class="navbar-nav  ms-auto ">
+
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page"
+                                href="https://www.google.com/search?q=web+developer+news&rlz=1C1RXQR_enIN1008IN1008&oq=web+developer+news&aqs=chrome..69i57j0i512l2j0i22i30l3j0i15i22i30j0i22i30l3.8866j0j7&sourceid=chrome&ie=UTF-8">News</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div class="second">
-        <img id=image1 src="cloud.png" alt="cloud" width="150" height="80">
-        <h2>I am Rashmi a web developer</h2>          
-        <img id=image2 src="cloud.png" alt="cloud" width="150" height="80">
+
+
+    <div class=" container-fluid  whole">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <img id=image1 src="cloud.png" alt="cloud" width="150" height="80">
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="allheadings">I am Rashmi a web developer</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img id=image1 src="cloud.png" alt="cloud" width="150" height="80">
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+        </div>
+        <div class="container col-lg-6 ">
+            <div class="row">
+                <div class="col">
+                    <img class="bigmountain" src="mountain.png" alt="Girl in a jacket">
+                </div>
+
+
+            </div>
+        </div>
+        <hr class="horicontal" />
+        <!-- <div class="second">
+            <img src="mountain.png" alt="Girl in a jacket" width="700" height="400">
+            <hr class="horicontal" />
+        </div> -->
+
         <br>
-       
-    </div>
-    <div class="second">
-        <img src="mountain.png" alt="Girl in a jacket" width="700" height="400">
-        <hr/>
+        <br>
+
+        <div class="container col-lg-6 ">
+            <div class="row">
+                <div class="col">
+                    <img src="kid-croped.png" alt="Girl in a jacket" width="200" height="200">
+                    <h1 class="allheadings">Hi.</h1>
+                    <p id="Firstpara">I'm a web designer / developer based in Pune, India. I have a passion for web
+                        design and
+                        love to create for web and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="horicontal" />
+        <div class="container col-lg-6">
+            <div class="row">
+                <div class="col">
+                    <img id=thirdimage src="kid-croped.png" alt="Girl in a jacket" width="200" height="200">
+                </div>
+                <div class="col">
+                    <h1 class="allheadings">Design what you want.</h1>
+                    <p id="thirdpara">I like to keep it simple. My goals are to focus on Websites, content and conveying
+                        the
+                        message that you want to show on website </p>
+                </div>
+
+            </div>
+
+        </div>
+        <hr class="horicontal" />
+        <div class="container col-lg-6">
+            <div class="row">
+                <div class="col">
+                    <h1 class="allheadings">Develop what you need.</h1>
+                    <p id="secondpara">I'm a developer, so I know how to create your website to run across devices using
+                        the
+                        latest technologies available.</p>
+                </div>
+                <div class="col">
+                    <img id=secondimage src="kid-croped.png" alt="Girl in a jacket" width="200" height="200">
+                </div>
+
+            </div>
+        </div>
+        <hr class="horicontal" />
+        <div class="container col-lg-6">
+            <div class="row">
+                <div class="col">
+                    <h2 class="allheadings">I’m currently available for freelance work.</h2>
+                    <p id="lastpara">If you have a project that you want to get started, think you need my help with
+                        something
+                        or just fancy saying hey, then get in touch.</p>
+                    <button type="button" class="btn btn-success btn-lg" > MESSAGE ME</button>
+                </div>
+            </div>
+        </div>
+        <hr class="horicontal" />
+        <div class="container-fluid last">
+            <div class="row ">
+                <div class="col">
+                    <a class="bot ancher" href="https://www.linkedin.com/in/rashmi-jadhav-9647921aa">LinkedIn</a>
+                </div>
+                <div class="col">
+                    <a class="bot ancher" href="https://github.com/">github</a>
+                </div>
+                <div class="col">
+                    <a class="bot ancher" href="mailto:rashmi28919@gmail.com">Hire Me</a>
+                </div>
+    
+            </div>
+        </div>
+    
+
     </div>
     
-    <br>
-    <br>
-    <div id="alldivs"> 
-        <img id=firstimage src="kid-croped.png" alt="Girl in a jacket" width="150" height="150">
-        <h1>Hi.</h1>
-        <p id="Firstpara">I'm a web designer / developer based in Pune, India. I have a passion for web design and love to create for web and mobile devices.</p>
-        <br>
-        <hr/>
-    </div>
-    <div id="alldivs">    
-        <img  id=thirdimage src="kid-croped.png" alt="Girl in a jacket" width="200" height="200">
-        <h1 id="thirdheading">Design what you want.</h1>
-        <p id="thirdpara">I like to keep it simple. My goals are to focus on Websites, content and conveying the message that you want to show on website  </p>
-        <br>
-        <hr>
-    </div>
-    <div id="alldivs">      
-        <img  id=secondimage src="kid-croped.png" alt="Girl in a jacket"width="200" height="200">
-        <h1 id="secondheading">Develop what you need.</h1>
-        <p id="secondpara">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
-        <br>
-        <hr>
-    </div>
-   
-    <div id="alldivs">     
-        <h1>I’m currently available for freelance work.</h1>
-        <p id="lastpara">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
-        <button type="button"><strong> MESSAGE ME</strong></button>
-    </div>
-    <div id="bottombar">
-        
-        <ul class="bottom">
-            <li class="bottombar"><a class="bot" href="https://www.linkedin.com/in/rashmi-jadhav-9647921aa">Linked In</a></li>
-            <li class="bottombar"><a class="bot" href="news.asp">Twitter</a></li>
-            <li class="bottombar"><a class="bot" href="mailto:rashmi28919@gmail.com">Hire Me</a></li>
-           
-        </ul>
-       
-    </div>
-   
+
 
 </body>
 
